@@ -6,7 +6,7 @@ const Item = ({ item }) => {
       <span style={item.packed ? { textDecoration: "line-through" } : {}}>
         {item.description} {item.quantity}
       </span>
-      <button>❎</button>
+      <button>❌</button>
     </li>
   );
 };
